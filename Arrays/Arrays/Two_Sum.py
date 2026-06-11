@@ -1,3 +1,13 @@
+"""
+Problem: Two Sum
+Difficulty: Easy
+
+Approach:
+Use a dictionary to store previously seen numbers.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}  
